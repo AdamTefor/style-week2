@@ -1,0 +1,30 @@
+/* Styles par défaut pour toutes les tailles d'écran */
+
+/* Styles communs pour toutes les vues */
+div {
+    /* Styles par défaut pour les divs */
+}
+
+img {
+    /* Styles par défaut pour les images */
+}
+
+/* Requête de média pour la vue tablette (à 772px) */
+@media screen and (min-width: 772px) {
+    /* Ajustements pour la vue tablette */
+    div {
+        width: 45%; /* Largeur des divs à 45% de la fenêtre */
+    }
+
+    img {
+        max-height: 30%; /* Images ne dépassant pas 30% de la hauteur de la fenêtre */
+    }
+}
+
+/* Requête de média pour la vue grand écran (à 998px) */
+@media screen and (min-width: 998px) {
+    /* Ajustements pour la vue grand écran */
+    div {
+        width: 30%; /* Largeur des divs à 30% de la fenêtre */
+    }
+}
